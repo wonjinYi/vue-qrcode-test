@@ -1,0 +1,24 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "http://wonjinyi.github.io/vue-qrcode-test",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
+    "clean": "gh-pages-clean"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "vue": "^3.2.47",
+    "vue3-qr-reader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.4"
+  }
+}
